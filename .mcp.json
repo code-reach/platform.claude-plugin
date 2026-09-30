@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "maru": {
+            "type": "http",
+            "url": "https://mcp.maru-platform.com/mcp"
+        }
+    }
+}
