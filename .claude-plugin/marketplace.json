@@ -1,5 +1,5 @@
 {
-    "name": "maru",
+    "name": "maru-platform",
     "owner": {
         "name": "CodeReach"
     },
@@ -8,7 +8,7 @@
     },
     "plugins": [
         {
-            "name": "maru",
+            "name": "maru-platform",
             "source": "./",
             "description": "MARU Platform MCP tools — upload launcher/updater and content builds and release them to the test track."
         }

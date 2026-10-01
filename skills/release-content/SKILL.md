@@ -18,7 +18,7 @@ The tools appear only for accounts that manage a vendor organization (owner or a
 
 ## Procedure
 
-1. **Find the content.** Call `list_my_contents` and pick the content by `key` or name. Note its `id`, `runtime` (`application`, `video`, `webview`) and `status`. If it is `hidden` or archived, tell the user now: test devices cannot install it until a person changes that in the console. Tell the user in one line which environment this is — the MCP server is `maru-test` on the test server and `maru` on production. On production, add that a test release still reaches real devices whose release track is `test`.
+1. **Find the content.** Call `list_my_contents` and pick the content by `key` or name. Note its `id`, `runtime` (`application`, `video`, `webview`) and `status`. If it is `hidden` or archived, tell the user now: test devices cannot install it until a person changes that in the console. Tell the user in one line which environment this is — the MCP server is `maru-platform-test` on the test server and `maru-platform` on production. On production, add that a test release still reaches real devices whose release track is `test`.
 2. **Choose the version string.** Call `list_content_versions` (for `application`, with the `platform`). Pick a string not used yet — at most 30 characters, free-form, and it cannot be reused even after a failed upload. Match the build's own version when it has one.
 3. **Hash and size, locally.**
    - PowerShell: `Get-FileHash -Algorithm SHA256 <file>` and `(Get-Item <file>).Length`

@@ -8,13 +8,13 @@ Claude Code v2.1.231 이상이 필요합니다.
 
 ```
 /plugin marketplace add code-reach/platform.claude-plugin
-/plugin install maru@maru
+/plugin install maru-platform@maru-platform
 ```
 
 설치한 뒤 한 번 로그인합니다.
 
 ```
-/mcp  →  maru  →  Authenticate
+/mcp  →  maru-platform  →  Authenticate
 ```
 
 브라우저에서 MARU 계정으로 로그인하고 동의하면 됩니다. 로그인은 대화형 세션에서 해 주세요 — `claude -p` 에서는 로그인 창을 띄울 수 없습니다.
