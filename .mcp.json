@@ -3,6 +3,19 @@
         "maru-platform": {
             "type": "http",
             "url": "https://mcp.maru-platform.com/mcp"
+        },
+        "launcher": {
+            "type": "stdio",
+            "command": "powershell.exe",
+            "args": [
+                "-NoLogo",
+                "-NoProfile",
+                "-NonInteractive",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${CLAUDE_PLUGIN_ROOT}/launcher-relay.ps1"
+            ]
         }
     }
 }

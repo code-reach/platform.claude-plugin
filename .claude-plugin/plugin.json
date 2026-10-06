@@ -1,7 +1,7 @@
 {
     "name": "maru-platform",
-    "version": "0.3.0",
-    "description": "MARU Platform MCP tools — upload launcher/updater and content builds and release them to the test track. Log in with your MARU account.",
+    "version": "0.4.0",
+    "description": "MARU Platform MCP tools — upload launcher/updater and content builds and release them to the test track. Log in with your MARU account. Also drives the MARU launcher running on this PC.",
     "author": {
         "name": "CodeReach"
     }
