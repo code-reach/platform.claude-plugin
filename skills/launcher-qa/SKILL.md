@@ -7,7 +7,7 @@ description: "Drive and verify the MARU launcher running on this PC through this
 
 Test the MARU launcher that is running on this PC with the `launcher` MCP tools. The tools are the same bridge calls the launcher's web UI makes, plus observation; each rule below exists because skipping it cost real time in a session.
 
-The launcher must already be running — these tools attach to it, they do not start it. If `launcher` shows as failed in `/mcp`, start the launcher and run `/mcp reconnect all`.
+The launcher must already be running — these tools attach to it, they do not start it. If `launcher` is disconnected, check with the user before opening a launcher window. Use a complete installed build or the user's running development launcher, not an incomplete publish folder. Once it is running, Claude Code can use `/mcp reconnect all`; in Codex, start a new session (restart the app server when driving that interface). Do not issue Claude Code's reconnect command in Codex.
 
 ## Know what you are driving
 

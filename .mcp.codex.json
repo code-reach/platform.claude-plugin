@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+        "maru-platform": {
+            "type": "http",
+            "url": "https://mcp.maru-platform.com/mcp"
+        },
+        "launcher": {
+            "type": "stdio",
+            "command": "powershell.exe",
+            "cwd": "./",
+            "env_vars": ["MARU_LAUNCHER_PIPE"],
+            "args": [
+                "-NoLogo",
+                "-NoProfile",
+                "-NonInteractive",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "./launcher-relay.ps1"
+            ]
+        }
+    }
+}
